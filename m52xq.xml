@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/samsung" remote="github" name="crdroidandroid/android_hardware_samsung" revision="14.0" />
+  <project path="kernel/samsung/sm7325" remote="github" name="crdroidandroid/android_kernel_samsung_sm7325" revision="14.0" />
+  <project path="device/samsung/sm7325-common" remote="github" name="alqnisot/android_device_samsung_sm7325-common" revision="14.0" />
+  <project path="vendor/samsung/sm7325-common" remote="github" name="alqnisot/vendor_samsung_sm7325-common" revision="14.0" />
+  <project path="device/samsung/m52xq" remote="github" name="alqnisot/android_device_samsung_m52xq" revision="14.0" />
+  <project path="vendor/samsung/m52xq" remote="github" name="alqnisot/vendor_samsung_m52xq" revision="14.0" />
+</manifest>

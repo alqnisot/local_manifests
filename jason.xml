@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="12" />
+  <project name="mrtozkn/android_device_xiaomi_jason" path="device/xiaomi/jason" remote="github" revision="14.0"/>
+  <project name="mrtozkn/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="14.0"/>
+  <project name="mrtozkn/android_kernel_xiaomi_jason" path="kernel/xiaomi/sdm660" remote="github" revision="14.0"/>
+  <project name="mrtozkn/android_vendor_xiaomi_jason" path="vendor/xiaomi/jason" remote="github" revision="14.0"/>
+  <project name="mrtozkn/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="14.0"/>
+  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="14.0"/>
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon"/>
+</manifest>

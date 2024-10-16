@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="gitlab"
+             fetch="https://gitlab.com/"
+             sync-c="true"
+             sync-j="12" />
+    <project name="LineageOS/android_device_xiaomi_vayu" path="device/xiaomi/vayu" remote="github" revision="lineage-21"/>
+    <project name="xiaomi-sm8150-devs/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" remote="github" revision="lineage-21"/>
+    <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="14.0"/>
+    <project name="xiaomi-sm8150-devs/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="github" revision="lineage-21"/>
+    <project name="xiaomi-sm8150-devs/proprietary_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="lineage-21"/>
+    <project name="xiaomi-sm8150-devs/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" remote="github" revision="lineage-21"/>
+</manifest>
